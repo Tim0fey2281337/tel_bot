@@ -1075,7 +1075,7 @@ def cancel(update, context):
 
 # Функция запускающая бота
 def main():
-    updater = Updater("5204373260:AAHPWpvimMwZYTrW21bdq9ZG74uiaY2GHIU")
+    updater = Updater("bot id")
     dispatcher = updater.dispatcher
     conv_handler = ch()
     dispatcher.add_handler(conv_handler)
